@@ -1,3 +1,17 @@
 section {
-    background: red;
+  background: red;
+}
+
+h1 {
+  color: white;
+
+  /* "sans-serif" is a special keyword which will use the default setup in the
+  browser. Check for "Customize fonts" in Chrome Settings.
+  */
+  font-family: sans-serif;
+
+  /* For custom fonts, search for "Google Fonts" on Google, which leads you to
+  https://fonts.google.com/, and use the font you prefer.
+  */
+  font-family: "Anton", sans-serif;
 }
