@@ -1,5 +1,11 @@
+/*
 section {
   background: red;
+}
+*/
+
+#product-overview {
+  background: darkgoldenrod;
 }
 
 h1 {
@@ -14,4 +20,8 @@ h1 {
   https://fonts.google.com/, and use the font you prefer.
   */
   font-family: "Anton", sans-serif;
+}
+
+.section-title {
+  color: yellow;
 }
