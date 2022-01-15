@@ -9,6 +9,12 @@ section {
 
 #product-overview {
   background: darkgoldenrod;
+  /*
+  Items of a Box Model: Element -> Padding -> Border -> Margin
+  */
+  padding: 20px;
+  border: 5px black solid;
+  margin: 20px;
 }
 
 h1 {
