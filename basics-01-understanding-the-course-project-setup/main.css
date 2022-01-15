@@ -58,3 +58,9 @@ h1 {
 In the Developer Tools, when inspecting elements, the highest priorities are
 shown first in the Developer Tools (has to be read from top to bottom)
 */
+
+.main-header {
+  width: 100%;
+  padding: 8px 16px;
+  background: chartreuse;
+}
