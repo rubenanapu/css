@@ -21,10 +21,11 @@ section {
   /*
   Items of a Box Model: Element -> Padding -> Border -> Margin
   */
-  padding: 20px;
-  border: 5px black solid;
-  /* margin: 20px; */
   height: 520px;
+  padding: 20px;
+  /* border: 5px black solid; */
+  /* margin: 20px; */
+  /* height: 520px; */
 }
 
 h1 {
