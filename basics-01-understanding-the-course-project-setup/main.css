@@ -25,3 +25,8 @@ h1 {
 .section-title {
   color: yellow;
 }
+
+/*
+In the Developer Tools, when inspecting elements, the highest priorities are
+shown first in the Developer Tools (has to be read from top to bottom)
+*/
