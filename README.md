@@ -8,3 +8,9 @@ README.md
 * [Combinators](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators)
 
 * [Common CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)
+
+* [Mastering margin collapsing](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
+
+* Margins:
+  * top, right, bottom, left. `selector {margin: 1px 2px 1px 2px;}`
+  * top and bottom, right and left. `selector {margin: 1px 2px;}`
