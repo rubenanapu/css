@@ -15,4 +15,7 @@ README.md
   * top, right, bottom, left. `selector {margin: 1px 2px 1px 2px;}`
   * top and bottom, right and left. `selector {margin: 1px 2px;}`
 
-* `height: 100%;` doesn't take the whole page. It includes only the padding, border and margin, unless the `100%` is defined for the `html` element and passed down by the child elements.
+* `height: 100%;` doesn't take the whole page. It includes only the padding, border and margin, unless the `100%` is defined for the `html` element and passed down by the child elements. The `width: 100%` applies to the Element in the center, not to padding, border or margin, but we can set `* {box-sizing: border-box};` so that the
+width includes *padding and marging* for all elements.
+
+
