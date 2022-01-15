@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  color: brown;
+  font-family: sans-serif;
+}
+
+code {
+  font-family: monospace;
+  color: red;
+}
+
+.green code {
+  color: green;
+}
+
+li + li {
+  background: black;
+  color: white;
+}
+
+ol li {
+  background: black;
+  color: white;
+}

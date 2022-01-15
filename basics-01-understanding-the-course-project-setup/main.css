@@ -1,0 +1,43 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/*
+section {
+  background: red;
+}
+*/
+
+#product-overview {
+  background: darkgoldenrod;
+}
+
+h1 {
+  color: white;
+
+  /* "sans-serif" is a special keyword which will use the default setup in the
+  browser. Check for "Customize fonts" in Chrome Settings.
+  */
+  font-family: sans-serif;
+
+  /* For custom fonts, search for "Google Fonts" on Google, which leads you to
+  https://fonts.google.com/, and use the font you prefer.
+  */
+  /* font-family: "Anton", sans-serif; */
+}
+
+#product-overview h1 {
+  /* Combinators allow us, in this case, select any "h1" that are children
+    of "#product-overiview".
+    It doesn't have to be a direct child. It can be grand*-children
+  */
+  font-family: "Anton", sans-serif;
+}
+
+.section-title {
+  color: yellow;
+}
+
+/*
+In the Developer Tools, when inspecting elements, the highest priorities are
+shown first in the Developer Tools (has to be read from top to bottom)
+*/
