@@ -18,4 +18,6 @@ README.md
 * `height: 100%;` doesn't take the whole page. It includes only the padding, border and margin, unless the `100%` is defined for the `html` element and passed down by the child elements. The `width: 100%` applies to the Element in the center, not to padding, border or margin, but we can set `* {box-sizing: border-box};` so that the
 width includes *padding and marging* for all elements.
 
-
+* Display:
+  * `inline` does not have padding, marging, etc,
+  * `inline-block` mix inline and block, allowing items to be shown in the same line and at the same time have padding, border and margin.

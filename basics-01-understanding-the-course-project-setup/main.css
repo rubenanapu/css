@@ -64,3 +64,11 @@ shown first in the Developer Tools (has to be read from top to bottom)
   padding: 8px 16px;
   background: chartreuse;
 }
+
+.main-nav__item {
+  /* "inline" does not have padding, marging, etc,
+    "inline-block" mix inline and block, allowing items to be shown in the same
+    line and at the same time have padding, border and margin.
+  */
+  display: inline-block;
+}
