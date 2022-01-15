@@ -72,3 +72,8 @@ shown first in the Developer Tools (has to be read from top to bottom)
   */
   display: inline-block;
 }
+
+.main-nav,
+.home-div {
+  display: inline-block;
+}
