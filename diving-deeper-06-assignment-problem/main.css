@@ -1,0 +1,33 @@
+* {
+  /* `width: 100%` applies to the Element in the center, not to
+    padding, border or margin, but we can set `* {box-sizing: border-box};`
+    so that the width includes *padding and marging* for all elements.
+    */
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+}
+.box {
+  padding: 1px 2px 3px 4px;
+  border: 5px solid rosybrown;
+  margin: 4px 3px 2px 1px;
+  display: inline-block;
+}
+
+.first-box {
+  height: 300px;
+  width: 50%;
+  display: none;
+}
+
+.second-box:hover,
+.second-box:active {
+    border: 5px solid black;
+    border-radius: 20px;
+}
