@@ -17,7 +17,7 @@ section {
 */
 
 #product-overview {
-  background: darkgoldenrod;
+  background: url("freedom.jpg");
   /*
   Items of a Box Model: Element -> Padding -> Border -> Margin
   */
