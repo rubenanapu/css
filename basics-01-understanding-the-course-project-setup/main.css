@@ -93,10 +93,16 @@ shown first in the Developer Tools (has to be read from top to bottom)
   color: #0c4f2f;
 }
 
+
 .main-nav__item a:hover, .main-nav__item a:active {
   color: white;
 }
 
+.main-nav__item a::after {
+  /* Adding a text " (link)" text after every HTML Anchor */
+  content: ' (link)';
+  color: red;
+}
 
 .home-div {
   display: inline-block;
@@ -114,4 +120,10 @@ shown first in the Developer Tools (has to be read from top to bottom)
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+p::first-letter {
+  /* Making the first letter of a Paragraph to be bigger and red. */
+  color: red;
+  font-size: 30px;
 }
