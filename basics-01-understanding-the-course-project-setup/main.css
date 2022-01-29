@@ -95,7 +95,6 @@ shown first in the Developer Tools (has to be read from top to bottom)
   padding-bottom: 3px;
 }
 
-
 .main-nav__item a:hover,
 .main-nav__item a:active {
   color: white;
@@ -104,7 +103,7 @@ shown first in the Developer Tools (has to be read from top to bottom)
 
 .main-nav__item a::after {
   /* Adding a text " (link)" text after every HTML Anchor */
-  content: ' (link)';
+  content: " (link)";
   color: red;
 }
 
@@ -130,4 +129,18 @@ p::first-letter {
   /* Making the first letter of a Paragraph to be bigger and red. */
   color: red;
   font-size: 30px;
+}
+
+.main-nav__item--cta a {
+  color: white;
+  background: #ff1b68;
+  padding: 8px 16px; /* 8px top and botton, 16px left and right */
+  border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  border: none;
+  color: #ff1b68;
+  background: white;
 }
