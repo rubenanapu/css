@@ -65,15 +65,38 @@ shown first in the Developer Tools (has to be read from top to bottom)
   background: chartreuse;
 }
 
+.main-header__brand {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  vertical-align: middle;
+}
+
 .main-nav__item {
   /* "inline" does not have padding, marging, etc,
     "inline-block" mix inline and block, allowing items to be shown in the same
     line and at the same time have padding, border and margin.
   */
   display: inline-block;
+  vertical-align: middle;
+
 }
 
-.main-nav,
 .home-div {
   display: inline-block;
+}
+
+.main-nav {
+  display: inline-block;
+  /* Alligning the navigation items to the right */
+  text-align: right;
+  /* width: 100%; */
+  width: calc(100% - 80px);
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
 }
