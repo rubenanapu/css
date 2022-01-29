@@ -24,4 +24,12 @@ width includes *padding and marging* for all elements.
 
 * [Pseudo Classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes): a:hover, a:active, and [Pseudo Elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) ::first-letter, ::before.
 
-*
+* Properties worth remembering:
+  * color
+  * background-color
+  * display
+  * padding
+  * border
+  * margin
+  * width
+  * height
