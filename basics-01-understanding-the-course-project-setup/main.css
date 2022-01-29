@@ -88,6 +88,16 @@ shown first in the Developer Tools (has to be read from top to bottom)
   color: #0c4f2f;
 }
 
+.main-nav__item a {
+  text-decoration: none;
+  color: #0c4f2f;
+}
+
+.main-nav__item a:hover, .main-nav__item a:active {
+  color: white;
+}
+
+
 .home-div {
   display: inline-block;
 }
