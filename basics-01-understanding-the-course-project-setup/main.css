@@ -70,6 +70,7 @@ shown first in the Developer Tools (has to be read from top to bottom)
   font-weight: bold;
   font-size: 22px;
   vertical-align: middle;
+  color: #0c4f2f;
 }
 
 .main-nav__item {
@@ -79,7 +80,12 @@ shown first in the Developer Tools (has to be read from top to bottom)
   */
   display: inline-block;
   vertical-align: middle;
+  padding-left: 10px;
+}
 
+.main-nav__item a {
+  text-decoration: none;
+  color: #0c4f2f;
 }
 
 .home-div {
@@ -98,5 +104,4 @@ shown first in the Developer Tools (has to be read from top to bottom)
   margin: 0;
   padding: 0;
   list-style: none;
-
 }
