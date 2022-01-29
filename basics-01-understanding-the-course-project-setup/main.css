@@ -94,7 +94,8 @@ shown first in the Developer Tools (has to be read from top to bottom)
 }
 
 
-.main-nav__item a:hover, .main-nav__item a:active {
+.main-nav__item a:hover,
+.main-nav__item a:active {
   color: white;
 }
 
