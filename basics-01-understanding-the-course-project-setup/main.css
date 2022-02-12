@@ -29,7 +29,7 @@ section {
 }
 
 h1 {
-  color: white;
+  /* color: white; */
 
   /* "sans-serif" is a special keyword which will use the default setup in the
   browser. Check for "Customize fonts" in Chrome Settings.
@@ -154,7 +154,12 @@ p::first-letter {
   display: inline-block;
   width: 30%;
   vertical-align: middle;
-  /*
-   */
+}
 
+.plan--highlighted {
+  background-color: #19b84c;
+  color: white;
+}
+
+.plan__recommended {
 }
