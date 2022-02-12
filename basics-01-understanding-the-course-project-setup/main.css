@@ -126,7 +126,7 @@ shown first in the Developer Tools (has to be read from top to bottom)
   list-style: none;
 }
 
-p::first-letter {
+p.special-letter::first-letter {
   /* Making the first letter of a Paragraph to be bigger and red. */
   color: red;
   font-size: 30px;
@@ -219,4 +219,19 @@ p::first-letter {
 #key-features .section-title{
   color: white;
   margin: 32px;
+}
+
+.key-feature {
+  list-style: none;
+  display: inline-block;
+  width: 30%;
+  color: white;
+  text-align: center;
+  vertical-align: top;
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
 }
