@@ -156,10 +156,15 @@ p::first-letter {
   vertical-align: middle;
 }
 
+.plan li {
+  list-style: none;
+  padding: 7px;
+}
+
 .plan--highlighted {
   background-color: #19b84c;
   color: white;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0 , 0.5);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .plan__recommended {
