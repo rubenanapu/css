@@ -33,3 +33,10 @@ width includes *padding and marging* for all elements.
   * margin
   * width
   * height
+
+* Avoid `!important` as much as you can. This is really `!important`. Also, avoid `:not` pseudo class.
+
+Use [Can I Use](https://caniuse.com/?search=background) website to know which browsers support a certain CSS.
+
+
+
