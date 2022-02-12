@@ -216,7 +216,7 @@ p.special-letter::first-letter {
   padding: 16px;
 }
 
-#key-features .section-title{
+#key-features .section-title {
   color: white;
   margin: 32px;
 }
@@ -228,6 +228,15 @@ p.special-letter::first-letter {
   color: white;
   text-align: center;
   vertical-align: top;
+}
+
+.key-feature__img {
+  background: #ffcede;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: auto;
 }
 
 .key-feature__description {
