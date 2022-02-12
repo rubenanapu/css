@@ -244,3 +244,22 @@ p.special-letter::first-letter {
   font-weight: bold;
   font-size: 20px;
 }
+
+.main-footer {
+  background: black;
+  margin-top: 48px;
+}
+
+.main-footer__links {
+  text-align: center;
+  padding: 16px 0px;
+}
+.main-footer__link {
+  display: inline-block;
+  margin: 0 32px;
+}
+
+.main-footer__link a {
+  color: gray;
+  text-decoration: none;
+}
