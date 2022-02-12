@@ -1,5 +1,14 @@
+* {
+  /* `width: 100%` applies to the Element in the center, not to
+  padding, border or margin, but we can set `* {box-sizing: border-box};`
+  so that the width includes *padding and marging* for all elements.
+  */
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 /*
 section {
@@ -8,7 +17,15 @@ section {
 */
 
 #product-overview {
-  background: darkgoldenrod;
+  background: url("freedom.jpg");
+  /*
+  Items of a Box Model: Element -> Padding -> Border -> Margin
+  */
+  height: 520px;
+  padding: 20px;
+  /* border: 5px black solid; */
+  /* margin: 20px; */
+  /* height: 520px; */
 }
 
 h1 {
@@ -41,3 +58,89 @@ h1 {
 In the Developer Tools, when inspecting elements, the highest priorities are
 shown first in the Developer Tools (has to be read from top to bottom)
 */
+
+.main-header {
+  width: 100%;
+  padding: 8px 16px;
+  background: chartreuse;
+}
+
+.main-header__brand {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  vertical-align: middle;
+  color: #0c4f2f;
+}
+
+.main-nav__item {
+  /* "inline" does not have padding, marging, etc,
+    "inline-block" mix inline and block, allowing items to be shown in the same
+    line and at the same time have padding, border and margin.
+  */
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: #0c4f2f;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: #0c4f2f;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: white;
+  border-bottom: 5px solid white;
+}
+
+.main-nav__item a::after {
+  /* Adding a text " (link)" text after every HTML Anchor */
+  content: " (link)";
+  color: red;
+}
+
+.home-div {
+  display: inline-block;
+}
+
+.main-nav {
+  display: inline-block;
+  /* Alligning the navigation items to the right */
+  text-align: right;
+  /* width: 100%; */
+  width: calc(100% - 80px);
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p::first-letter {
+  /* Making the first letter of a Paragraph to be bigger and red. */
+  color: red;
+  font-size: 30px;
+}
+
+.main-nav__item--cta a {
+  color: white;
+  background: #ff1b68;
+  padding: 8px 16px; /* 8px top and botton, 16px left and right */
+  border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  border: none;
+  color: #ff1b68;
+  background: white;
+}
