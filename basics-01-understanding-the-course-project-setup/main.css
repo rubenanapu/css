@@ -159,8 +159,13 @@ p::first-letter {
 .plan--highlighted {
   background-color: #19b84c;
   color: white;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0,0 , 0.5);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0 , 0.5);
 }
 
 .plan__recommended {
+  background-color: white;
+  color: #19b84c;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.473);
 }
