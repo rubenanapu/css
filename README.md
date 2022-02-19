@@ -44,6 +44,9 @@ Use [Can I Use](https://caniuse.com/?search=background) website to know which br
 * Choices: **static, absolute, relative, fixed, 'sticky'**.
 
 * `fixed`: refers to the viewport (visible part of the browser)
+* `z-index:` has `auto` as the default value, which is equals to zero (`0`), and it can only change for items that have the `position` property set.
+* Adding a badge: add `position:relative` to **parent**, and `position: absolute` to **badge**. E.g: `<div class="parent plan"><h2 class="badge">badge</h2></div>`
+* `position: absolute` refers to the first parent that has a `position` set.
 
 
 

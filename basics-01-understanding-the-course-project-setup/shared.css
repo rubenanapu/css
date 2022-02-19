@@ -17,6 +17,7 @@ body {
   background: chartreuse;
   position: fixed;
   top: 0px;
+  z-index: 1;
 }
 
 main {

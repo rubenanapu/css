@@ -28,6 +28,10 @@ main {
   top: 16px;
   position: absolute;
   right: 16px;
+  color: white;
+  background-color: #ff5454;
+  padding: 7px;
+  font-size: 12px;
 }
 
 .pkg:hover {
