@@ -38,5 +38,14 @@ width includes *padding and marging* for all elements.
 
 Use [Can I Use](https://caniuse.com/?search=background) website to know which browsers support a certain CSS.
 
+# Positioning
+
+* Default position: `static`;
+* Choices: static, absolute, relative, fixed, sticky.
+
+
+
+
+
 
 
