@@ -48,7 +48,6 @@ In the Developer Tools, when inspecting elements, the highest priorities are
 shown first in the Developer Tools (has to be read from top to bottom)
 */
 
-
 p.special-letter::first-letter {
   /* Making the first letter of a Paragraph to be bigger and red. */
   color: red;
@@ -136,4 +135,10 @@ p.special-letter::first-letter {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
+}
+
+.plan__list {
+  width: 90%;
+  margin: auto;
+  text-align: center;
 }
