@@ -38,5 +38,15 @@ width includes *padding and marging* for all elements.
 
 Use [Can I Use](https://caniuse.com/?search=background) website to know which browsers support a certain CSS.
 
+# Positioning
 
+* Choices: **static (the default), absolute, relative, fixed, 'sticky (not widely supported)'**.
+
+* `fixed`: refers to the viewport (visible part of the browser)
+* `z-index:` has `auto` as the default value, which is equals to zero (`0`), and it can only change for items that have the `position` property set.
+* Adding a badge: add `position:relative` to **parent**, and `position: absolute` to **badge**. E.g: `<div class="parent plan"><h2 class="badge">badge</h2></div>`
+* `position: absolute` refers to the first parent that has a `position` set.
+* `position: relative` refers to the element itself.
+* `overflow: hidden` hides child elements that are moved outside the limits of the parent. It does not have any effect if applied to `html` or `body` elements, unless you apply at the same time to both `html and body`.
+* **Stacking Context**: z-index are always applied only inside the parent. If an "uncle" has a z-index of 100, and "parent" has z-index 0, giving a "nephew" a z-index = 200 will not make it show above "uncle", since the parent index is lower than uncle.
 

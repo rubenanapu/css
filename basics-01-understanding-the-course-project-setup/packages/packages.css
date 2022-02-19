@@ -1,0 +1,82 @@
+main {
+  margin-top: 48px;
+}
+
+.background {
+  background: url("../images/plans-background.jpg");
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  z-index: -1;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.pkg {
+  background: #d5ffdc;
+  padding: 32px 16px;
+  border: 4px solid #0e4f1f;
+  margin-bottom: 8px;
+  width: 80%;
+  position: relative;
+}
+
+.pkg_badge {
+  top: 16px;
+  position: absolute;
+  right: 16px;
+  color: white;
+  background-color: #ff5454;
+  padding: 7px;
+  font-size: 12px;
+}
+
+.pkg:hover {
+  border: 4px solid red;
+}
+
+.pkg__title {
+  color: #0e4f1f;
+  font-family: inherit;
+}
+
+.pkg__subtitle {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.pkg__details {
+  background-color: white;
+  border: 1px #0e4f1f solid;
+  padding: 8px;
+  color: #0e4f1f;
+}
+
+.pkg__link {
+  text-decoration: none;
+}
+
+.pkg__link:active,
+.pkg__link:hover {
+  color: black;
+}
+
+.pkg__premium {
+  background: #0e4f1f;
+}
+
+.pkg__premium .pkg__title {
+  color: white;
+  font-family: inherit;
+}
+
+.pkg__premium .pkg__subtitle {
+  color: #bbb;
+}
+
+#free {
+  float: right;
+  text-align: right;
+}

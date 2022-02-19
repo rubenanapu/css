@@ -1,0 +1,148 @@
+* {
+  /* `width: 100%` applies to the Element in the center, not to
+    padding, border or margin, but we can set `* {box-sizing: border-box};`
+    so that the width includes *padding and marging* for all elements.
+    */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.main-header {
+  width: 100%;
+  padding: 8px 16px;
+  background: chartreuse;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+main {
+  margin-top: 32px;
+}
+
+.main-header__brand {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  vertical-align: middle;
+  color: #0c4f2f;
+}
+
+.home-div {
+  display: inline-block;
+}
+
+.main-header {
+  width: 100%;
+  padding: 8px 16px;
+  background: chartreuse;
+}
+
+.main-header__brand {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  vertical-align: middle;
+  color: #0c4f2f;
+}
+
+.main-nav {
+  display: inline-block;
+  /* Alligning the navigation items to the right */
+  text-align: right;
+  /* width: 100%; */
+  width: calc(100% - 80px);
+}
+
+.main-nav__item {
+  /* "inline" does not have padding, marging, etc,
+      "inline-block" mix inline and block, allowing items to be shown in the same
+      line and at the same time have padding, border and margin.
+    */
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: #0c4f2f;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: #0c4f2f;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: white;
+  border-bottom: 5px solid white;
+}
+
+.main-nav__item a::after {
+  /* Adding a text " (link)" text after every HTML Anchor */
+  content: " (link)";
+  color: red;
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item--cta a {
+  color: white;
+  background: #ff1b68;
+  padding: 8px 16px; /* 8px top and botton, 16px left and right */
+  border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  border: none;
+  color: #ff1b68;
+  background: white;
+}
+
+.btn {
+  background: #0e4f1f;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  color: #0e4f1f;
+  background-color: white;
+}
+
+.main-footer {
+  background: black;
+  margin-top: 48px;
+}
+
+.main-footer__links {
+  text-align: center;
+  padding: 16px 0px;
+}
+.main-footer__link {
+  display: inline-block;
+  margin: 0 32px;
+}
+
+.main-footer__link a {
+  color: gray;
+  text-decoration: none;
+}
