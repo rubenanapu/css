@@ -15,6 +15,12 @@ body {
   width: 100%;
   padding: 8px 16px;
   background: chartreuse;
+  position: fixed;
+  top: 0px;
+}
+
+main {
+  margin-top: 32px;
 }
 
 .main-header__brand {
