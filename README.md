@@ -41,8 +41,9 @@ Use [Can I Use](https://caniuse.com/?search=background) website to know which br
 # Positioning
 
 * Default position: `static`;
-* Choices: static, absolute, relative, fixed, sticky.
+* Choices: **static, absolute, relative, fixed, 'sticky'**.
 
+* `fixed`: refers to the viewport (visible part of the browser)
 
 
 
