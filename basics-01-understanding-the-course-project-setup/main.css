@@ -9,6 +9,11 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
 
+
+  /* "background-position: left top;" If top is 100%, the bottom
+  of the image is always shown/fixed/visible. If 0%, the top is fixed. */
+  background-position: left 0% top 10%;
+
   /*
   Items of a Box Model: Element -> Padding -> Border -> Margin
   */

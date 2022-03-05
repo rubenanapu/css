@@ -55,3 +55,6 @@ Use [Can I Use](https://caniuse.com/?search=background) website to know which br
 * `background-size: cover; ` (cover is the same as `100% auto`, which is 100% width and auto height). Some parts of the image are not visible.
 * `background-size: contain;` makes the image show completely inside the container.
 * `background-repeat: no-repeat;` is the most common way of using.
+* [background-position: leftValue topValue;](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position) is used to define how the excess part of the background image is cropped.
+  If `px` is used, the image will be moved. If `%` is used, it defines how the percentage that is outside the container is cropped.
+  If `0% 100%` is used, the top of the image is cropped and the bottom is shown. If `0% 0%`, the bottom is dropped and the top is shown, which is the default behavior.
