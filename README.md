@@ -64,3 +64,4 @@ Use [Can I Use](https://caniuse.com/?search=background) website to know which br
 * `vertical-align: top;` can be used if a shadow/border of a container that contains an image is not correctly aligned to the image bottom. The problem is that the image is an inline element and a "space" is added after it. With `vertical-align: top` in the image solves the problem. We could also use: `display: block;` to make the image fit its surrounding container.
 
 * `background: linear-gradient(to top right, green, yellow);` to make a background gradient instead of image, or in addition to images.
+* [radial-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient()) is awesome also, to create circles or ellipses at different size, originating from different position.

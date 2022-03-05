@@ -7,7 +7,9 @@ section {
 #product-overview {
   /* background-image: url("freedom.jpg"); */
 
-  background: linear-gradient(to top right, green, yellow);
+  /* background: linear-gradient(to top right, green, yellow); */
+
+  background: radial-gradient(circle at top right, yellow, red);
   background-size: cover;
   background-repeat: no-repeat;
 
