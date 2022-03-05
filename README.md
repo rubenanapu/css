@@ -50,3 +50,8 @@ Use [Can I Use](https://caniuse.com/?search=background) website to know which br
 * `overflow: hidden` hides child elements that are moved outside the limits of the parent. It does not have any effect if applied to `html` or `body` elements, unless you apply at the same time to both `html and body`.
 * **Stacking Context**: z-index are always applied only inside the parent. If an "uncle" has a z-index of 100, and "parent" has z-index 0, giving a "nephew" a z-index = 200 will not make it show above "uncle", since the parent index is lower than uncle.
 
+# Background
+
+* `background-size: cover; ` (cover is the same as `100% auto`, which is 100% width and auto height). Some parts of the image are not visible.
+* `background-size: contain;` makes the image show completely inside the container.
+* `background-repeat: no-repeat;` is the most common way of using.
