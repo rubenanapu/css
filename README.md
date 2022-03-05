@@ -65,3 +65,5 @@ Use [Can I Use](https://caniuse.com/?search=background) website to know which br
 
 * `background: linear-gradient(to top right, green, yellow);` to make a background gradient instead of image, or in addition to images.
 * [radial-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient()) is awesome also, to create circles or ellipses at different size, originating from different position.
+* Use [filter](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) to convert images to grayscale, for example.
+*
