@@ -61,3 +61,5 @@ Use [Can I Use](https://caniuse.com/?search=background) website to know which br
 
 * `background-origin: border-box;` can be used to make the background image be besides the borders, instead of within the borders.
 * [background-clip](https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip) must be checked also.
+* `vertical-align: top;` can be used if a shadow/border of a container that contains an image is not correctly aligned to the image bottom. The problem is that the image is an inline element and a "space" is added after it. With `vertical-align: top` in the image solves the problem. We could also use: `display: block;` to make the image fit its surrounding container.
+
