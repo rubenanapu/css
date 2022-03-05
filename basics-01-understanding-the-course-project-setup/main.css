@@ -14,11 +14,14 @@ section {
   of the image is always shown/fixed/visible. If 0%, the top is fixed. */
   background-position: left 0% top 10%;
 
+  background-origin: border-box;
+
   /*
   Items of a Box Model: Element -> Padding -> Border -> Margin
   */
   height: 520px;
   padding: 20px;
+  border: 5px dashed red;
   /* border: 5px black solid; */
   /* margin: 20px; */
   /* height: 520px; */

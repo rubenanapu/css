@@ -58,3 +58,6 @@ Use [Can I Use](https://caniuse.com/?search=background) website to know which br
 * [background-position: leftValue topValue;](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position) is used to define how the excess part of the background image is cropped.
   If `px` is used, the image will be moved. If `%` is used, it defines how the percentage that is outside the container is cropped.
   If `0% 100%` is used, the top of the image is cropped and the bottom is shown. If `0% 0%`, the bottom is dropped and the top is shown, which is the default behavior.
+
+* `background-origin: border-box;` can be used to make the background image be besides the borders, instead of within the borders.
+* [background-clip](https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip) must be checked also.
