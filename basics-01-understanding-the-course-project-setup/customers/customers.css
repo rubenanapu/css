@@ -14,6 +14,13 @@
 
 .testimonial__image-container {
   width: 65%;
+
+  /* Defining max and min width so that the inner image do not take the entire page, or
+  reduces so much that cannot be seen
+   */
+  max-width: 580px;
+  min-width: 350px;
+
   display: inline-block;
   vertical-align: middle;
 
