@@ -25,11 +25,19 @@ main {
 }
 
 .main-header__brand {
+  /* text config */
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
   vertical-align: middle;
   color: #0c4f2f;
+  /* img config */
+  height: 22px;  /* to be equals our font-size */
+  display: inline-block; /* so that image height 100% will fit into the header*/
+}
+
+.main-header__brand img {
+  height: 100%;  /* to be equals our font-size */
 }
 
 .home-div {
@@ -40,14 +48,6 @@ main {
   width: 100%;
   padding: 8px 16px;
   background: chartreuse;
-}
-
-.main-header__brand {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 22px;
-  vertical-align: middle;
-  color: #0c4f2f;
 }
 
 .main-nav {
