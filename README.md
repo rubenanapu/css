@@ -77,3 +77,6 @@ Use [Can I Use](https://caniuse.com/?search=background) website to know which br
 * `margin: auto` only works for block elements with an explicitly assigned width. It's used to centralize blocks.
 * Units: pixels (px), percentages (%), rem & em (prefer "rem"), viewport(vh, vw), auto.
 
+# Working with JavaScript and CSS
+
+* `console.dir` shows all properties of what was selected with `document.querySelector('.classname')`
