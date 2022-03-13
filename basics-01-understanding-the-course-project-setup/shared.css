@@ -12,7 +12,7 @@ body {
 }
 
 .backdrop {
-  display: none;  /* display: none; to temporarily disabled it, otherwise page is not clickable */
+  display: none; /* display: none; to temporarily disabled it, otherwise page is not clickable */
   position: fixed;
   top: 0;
   left: 0;
@@ -43,12 +43,12 @@ main {
   vertical-align: middle;
   color: #0c4f2f;
   /* img config */
-  height: 22px;  /* to be equals our font-size */
+  height: 22px; /* to be equals our font-size */
   display: inline-block; /* so that image height 100% will fit into the header*/
 }
 
 .main-header__brand img {
-  height: 100%;  /* to be equals our font-size */
+  height: 100%; /* to be equals our font-size */
 }
 
 .toggle-button {
@@ -254,4 +254,8 @@ main {
 .modal__action--negative:active {
   background: #ff5454;
   border-color: #ff5454;
+}
+
+.open {
+  display: block;
 }
