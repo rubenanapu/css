@@ -19,7 +19,10 @@ function closeModal(){
     // modal.style.display = "none";
 
     backdrop.classList.remove('open');
-    modal.classList.remove('open');
+    if (modal){
+      modal.classList.remove('open');
+    }
+
 }
 
 function showSideNavigationBar(){
@@ -30,7 +33,10 @@ function showSideNavigationBar(){
   backdrop.classList.add("open");
 }
 
-closeModalButton.addEventListener('click', closeModal);
+if (closeModalButton){
+  closeModalButton.addEventListener('click', closeModal);
+}
+
 backdrop.addEventListener('click', function(){
   // mobileSideNavBar.style.display = "none";
   mobileSideNavBar.classList.remove("open");
