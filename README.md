@@ -74,3 +74,6 @@ Use [Can I Use](https://caniuse.com/?search=background) website to know which br
 * vw: viewport width
 
 * `.backdrop {}` to create that transparent layer behind a modal.
+* `margin: auto` only works for block elements with an explicitly assigned width. It's used to centralize blocks.
+* Units: pixels (px), percentages (%), rem & em (prefer "rem"), viewport(vh, vw), auto.
+
