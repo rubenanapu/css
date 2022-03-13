@@ -5,12 +5,27 @@ section {
 */
 
 #product-overview {
-  background: url("freedom.jpg");
+  /* background-image: url("freedom.jpg"); */
+
+  /* background: linear-gradient(to top right, green, yellow); */
+
+  background: radial-gradient(circle at top right, yellow, red);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+  /* "background-position: left top;" If top is 100%, the bottom
+  of the image is always shown/fixed/visible. If 0%, the top is fixed. */
+  background-position: left 0% top 10%;
+
+  background-origin: border-box;
+
   /*
   Items of a Box Model: Element -> Padding -> Border -> Margin
   */
   height: 520px;
   padding: 20px;
+  /* border: 5px dashed red; */
   /* border: 5px black solid; */
   /* margin: 20px; */
   /* height: 520px; */
@@ -129,6 +144,7 @@ p.special-letter::first-letter {
   border: 2px solid #424242;
   border-radius: 50%;
   margin: auto;
+  padding: 20px;
 }
 
 .key-feature__description {
