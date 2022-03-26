@@ -1,7 +1,9 @@
 # [CSS - The Complete Guide 2022 (incl. Flexbox, Grid & Sass)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/)
 
 
-### Rule 1: Mobile first (< [640px=40rem](https://nekocalc.com/px-to-rem-converter)), only then adapt it to PCs.
+### Rule 1: Mobile first ([320-500px] [(640px=40rem)](https://nekocalc.com/px-to-rem-converter)), only then adapt it to PCs.
+### See [mydevice.io](https://www.mydevice.io/#compare-devices).
+* Make sure your site looks good from 300px to 500px (most cell phones). Use 320px as base.
 
 * [CSS Reference (attributes and values)](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 
