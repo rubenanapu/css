@@ -13,7 +13,6 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
 
-
   /* "background-position: left top;" If top is 100%, the bottom
   of the image is always shown/fixed/visible. If 0%, the top is fixed. */
   background-position: left 0% top 10%;
@@ -80,16 +79,33 @@ p.special-letter::first-letter {
   text-align: center;
   padding: 16px;
 
-
-  /* Disabled display, margin and width becauwe we do Mobile First. */
-  /* display: inline-block;  */
-  /* width: 30%; */
-  /* margin: 8px; */
-  /* vertical-align: middle; */
-
   margin-bottom: 16px;
 }
 
+@media (min-width: 40rem) {
+  .plan__list {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  .plan {
+    /* Disabled display, margin and width becauwe we do Mobile First. */
+    display: inline-block;
+    width: 30%;
+    margin: 8px;
+    vertical-align: middle;
+    min-width: 13rem;
+    max-width: 25rem;
+  }
+
+  .plan--highlighted {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  .plan__recommended {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.473);
+  }
+}
 
 .plan ul {
   padding: 0px;
@@ -102,7 +118,6 @@ p.special-letter::first-letter {
 .plan--highlighted {
   background-color: #19b84c;
   color: white;
-  /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5); */
 }
 
 .plan__recommended {
@@ -110,7 +125,6 @@ p.special-letter::first-letter {
   color: #19b84c;
   padding: 8px;
   border-radius: 8px;
-  /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.473); */
 }
 
 .plan__title {
@@ -164,11 +178,3 @@ p.special-letter::first-letter {
   font-weight: bold;
   font-size: 20px;
 }
-
-/* .plan__list {
-  Disabling width and margin to have Mobile First
-  /* width: 90%;
-  /* margin: auto;
-  text-align: center;
-}
-*/
