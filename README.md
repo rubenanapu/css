@@ -1,7 +1,7 @@
 # [CSS - The Complete Guide 2022 (incl. Flexbox, Grid & Sass)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/)
 
 
-### Rule 1: Mobile first, only then adapt it to PCs.
+### Rule 1: Mobile first (< [640px=40rem](https://nekocalc.com/px-to-rem-converter)), only then adapt it to PCs.
 
 * [CSS Reference (attributes and values)](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 
