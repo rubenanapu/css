@@ -1,0 +1,13 @@
+.signup-title{
+    font-size: 1.8rem;
+    text-align: center;
+    color: red;
+}
+
+.signup-form label,
+.signup-form input,
+.signup-form select {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+}
