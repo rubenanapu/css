@@ -156,11 +156,18 @@ p.special-letter::first-letter {
 
 .key-feature {
   list-style: none;
-  display: inline-block;
-  width: 30%;
+  width: 100%;
   color: white;
   text-align: center;
   vertical-align: top;
+}
+
+@media (min-width: 40rem) {
+  .key-feature {
+    display: inline-block;
+    width: 30%;
+    max-width: 25rem;
+  }
 }
 
 .key-feature__img {
