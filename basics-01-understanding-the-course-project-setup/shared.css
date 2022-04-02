@@ -43,12 +43,13 @@ main {
   vertical-align: middle;
   color: #0c4f2f;
   /* img config */
-  height: 22px; /* to be equals our font-size */
+  /* height: 22px; to be equals our font-size */
   display: inline-block; /* so that image height 100% will fit into the header*/
 }
 
 .main-header__brand img {
-  height: 100%; /* to be equals our font-size */
+  /* height: 100%; to be equals our font-size */
+  height: 2.5rem;
 }
 
 .toggle-button {
@@ -84,7 +85,7 @@ main {
 }
 
 .main-nav {
-  display: inline-block;
+  display: none;
   /* Alligning the navigation items to the right */
   text-align: right;
   /* width: 100%; */
@@ -117,11 +118,11 @@ main {
   border-bottom: 5px solid white;
 }
 
-.main-nav__item a::after {
-  /* Adding a text " (link)" text after every HTML Anchor */
-  content: " (link)";
-  color: red;
-}
+/* .main-nav__item a::after {
+  /* Adding a text " (link)" text after every HTML Anchor 
+  /* content: " (link)";
+  /* color: red; 
+} */
 
 .main-nav__items {
   margin: 0;
@@ -198,8 +199,8 @@ main {
   padding: 16px 0px;
 }
 .main-footer__link {
-  display: inline-block;
-  margin: 0 32px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .main-footer__link a {
@@ -258,4 +259,19 @@ main {
 
 .open {
   display: block;
+}
+
+@media (min-width: 40rem) {
+  .toggle-button{
+    display: none;
+  }
+  .main-nav {
+    display: inline-block;
+  }
+
+  .main-footer__link {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
